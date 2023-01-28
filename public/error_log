@@ -1,0 +1,8 @@
+[12-Jan-2023 09:37:35 UTC] PHP Warning:  require(/home/ujhz0735/resokom.hellomoney.cm/vendor/composer/../symfony/polyfill-php81/bootstrap.php): Failed to open stream: No such file or directory in /home/ujhz0735/resokom.hellomoney.cm/vendor/composer/autoload_real.php on line 71
+[12-Jan-2023 09:37:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ujhz0735/resokom.hellomoney.cm/vendor/composer/../symfony/polyfill-php81/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ujhz0735/resokom.hellomoney.cm/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/ujhz0735/resokom.hellomoney.cm/vendor/composer/autoload_real.php(61): composerRequire6381eeea58b3d1419fd1a1821da69e08()
+#1 /home/ujhz0735/resokom.hellomoney.cm/vendor/autoload.php(7): ComposerAutoloaderInit6381eeea58b3d1419fd1a1821da69e08::getLoader()
+#2 /home/ujhz0735/resokom.hellomoney.cm/public/index.php(34): require('/home/ujhz0735/...')
+#3 {main}
+  thrown in /home/ujhz0735/resokom.hellomoney.cm/vendor/composer/autoload_real.php on line 71
